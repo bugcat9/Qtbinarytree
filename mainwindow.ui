@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1006</width>
+    <height>743</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1006</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单(F)</string>
+    </property>
+    <addaction name="actionCreat"/>
+    <addaction name="separator"/>
+    <addaction name="actionLevel"/>
+    <addaction name="separator"/>
+    <addaction name="actionSwap"/>
+    <addaction name="separator"/>
+    <addaction name="actionFind"/>
+    <addaction name="separator"/>
+    <addaction name="actionReCreat"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCreat">
+   <property name="text">
+    <string>前序构造</string>
+   </property>
+   <property name="toolTip">
+    <string>前序构造</string>
+   </property>
+  </action>
+  <action name="actionSwap">
+   <property name="text">
+    <string>交换结点</string>
+   </property>
+   <property name="toolTip">
+    <string>交换结点</string>
+   </property>
+  </action>
+  <action name="actionFind">
+   <property name="text">
+    <string>查找关键字</string>
+   </property>
+  </action>
+  <action name="actionLevel">
+   <property name="text">
+    <string>层次构造</string>
+   </property>
+  </action>
+  <action name="actionReCreat">
+   <property name="text">
+    <string>重新构建</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
